@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@types/imagemin": "9.0.0",
+    "@types/node": "22.10.1",
+    "@types/webpack-node-externals": "3.0.4",
+    "ts-loader": "9.5.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.2",
+    "webpack": "5.96.1",
+    "webpack-cli": "5.1.4",
+    "webpack-node-externals": "3.0.0"
+  },
+  "dependencies": {
+    "imagemin": "9.0.0",
+    "imagemin-pngquant": "10.0.0",
+    "w3c-html-validator": "1.8.2"
+  }
+}
